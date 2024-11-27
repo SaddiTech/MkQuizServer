@@ -4,7 +4,7 @@ import { dirname, join } from "path";
 import express from "express";
 import swaggerUi from "swagger-ui-express";
 import swaggerJsdoc from "swagger-jsdoc";
-import swaggerOptions from "../maths-quiz-server/swagger/docs.js";
+import swaggerOptions from './swagger/docs.js';
 import getRandomQuestionsPerTopic from "./src/test-data/processer/randomQuestionFromTopic.js";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
