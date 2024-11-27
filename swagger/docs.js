@@ -12,6 +12,10 @@ const swaggerOptions = {
         url: `http://localhost:8080`,
         description: 'Local development server',
       },
+      {
+        url: `https://mk-kids-maths-quiz-124822148298.europe-west2.run.app`,
+        description: 'dev development server',
+      },
     ],
     components: {
       schemas: {
